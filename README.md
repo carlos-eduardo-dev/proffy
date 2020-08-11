@@ -33,7 +33,7 @@
 - ### **Pré-requisitos**
 
   - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador
-  - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
+  - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador (**Não necessário** se baixar o [arquivo.zip](https://github.com/carlos-eduardo-dev/proffy/archive/master.zip))
 
 1. Faça um clone do repositório:
 
