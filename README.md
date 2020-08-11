@@ -45,6 +45,9 @@
     ```sh
     # Indo para a pasta da aplicação
     $ cd proffy/
+    
+    # Se baixar a versão .zip, descompacte o arquivo e altere o comando para: 
+    # $ cd proffy-master/
 
     # Iniciando a aplicação
     $ node src/server.js
