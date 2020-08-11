@@ -18,12 +18,9 @@
 
 ## :bookmark: Sobre
 
-<p>
-    O **Proffy** é uma aplicação web desenvolvida para facilitar a conexão entre professores e alunos. Os professores se cadastram informando o custo, a disponibilidade de suas aulas e o seu número de contato e os alunos filtram suas pesquisas para achar um "proffy" que esteja disponível ao seu cronograma. 
-</p>
-<p>
-    Esse é um projeto desenvolvido pela [Rocketseat](https://rocketseat.com.br/) em homenagem ao **Dia Nacional dos Profissionais da Educação**. 
-</p>
+   O **Proffy** é uma aplicação web desenvolvida para facilitar a conexão entre professores e alunos. Os professores se cadastram informando o custo, a disponibilidade de suas aulas e o seu número de contato e os alunos filtram suas pesquisas para achar um "proffy" que esteja disponível ao seu cronograma.
+
+   Esse é um projeto desenvolvido pela [Rocketseat](https://rocketseat.com.br/) em homenagem ao **Dia Nacional dos Profissionais da Educação**.
 
 ## :rocket: Tecnologias
 
