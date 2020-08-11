@@ -18,12 +18,9 @@
 
 ## :bookmark: Sobre
 
-<p>
-    O **Proffy** é uma aplicação web desenvolvida para facilitar a conexão entre professores e alunos. Os professores se cadastram informando o custo, a disponibilidade de suas aulas e o seu número de contato e os alunos filtram suas pesquisas para achar um "proffy" que esteja disponível ao seu cronograma. 
-</p>
-<p>
-    Esse é um projeto desenvolvido pela [Rocketseat](https://rocketseat.com.br/) em homenagem ao **Dia Nacional dos Profissionais da Educação**. 
-</p>
+   O **Proffy** é uma aplicação web desenvolvida para facilitar a conexão entre professores e alunos. Os professores se cadastram informando o custo, a disponibilidade de suas aulas e o seu número de contato e os alunos filtram suas pesquisas para achar um "proffy" que esteja disponível ao seu cronograma.
+
+   Esse é um projeto desenvolvido pela [Rocketseat](https://rocketseat.com.br/) em homenagem ao **Dia Nacional dos Profissionais da Educação**.
 
 ## :rocket: Tecnologias
 
@@ -37,7 +34,6 @@
 
   - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador
   - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
-  - Também, é **preciso** ter o gerenciador de pacotes **[NPM](https://www.npmjs.com/)**
 
 1. Faça um clone do repositório:
 
