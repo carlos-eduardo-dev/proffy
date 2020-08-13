@@ -1,8 +1,22 @@
 {
-  "name": "nlw",
+  "name": "proffy",
+  "version": "1.0.0",
+  "description": "Application to facilitate the connection between teachers and students",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-eduardo-dev/proffy.git"
+  },
+  "keywords": [],
+  "author": "Carlos Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos-eduardo-dev/proffy/issues"
+  },
+  "homepage": "https://github.com/carlos-eduardo-dev/proffy#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nunjucks": "^3.2.2",
