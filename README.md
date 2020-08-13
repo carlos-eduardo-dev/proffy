@@ -10,7 +10,8 @@
 <p align="center">
   <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;
+  <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#pencil-licença">Licensa</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <img alt="Design" src=".github/img/design.png" width="100%">
@@ -49,9 +50,19 @@
     # Se baixar a versão .zip, descompacte o arquivo e altere o comando para: 
     # $ cd proffy-master/
 
-    # Iniciando a aplicação
-    $ node src/server.js
+    #Instalando as dependências
+    $ npm i
+
+    # Iniciando a aplicação (localhost:5050)
+    $ npm start
+
+    # Iniciar como dev para ter auto-reload da aplicação
+    # $ npm run dev
     ```
+    
+## :pencil: Licença
+
+Esse projeto está sob a licença ISC. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 <sup>Projeto desenvolvido com a tutoria de [Mayk Brito](https://github.com/maykbrito), da [Rocketseat](rocketseat.com.br).</sup>
