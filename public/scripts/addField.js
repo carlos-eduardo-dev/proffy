@@ -1,21 +1,27 @@
 document.querySelector("#add-time").addEventListener('click', cloneField)
 
 function cloneField() {
-    const newFieldsContainer = document.querySelector(".schedule-item").cloneNode(true)
-    const fields = newFieldsContainer.querySelectorAll("input")
+
+    const container = document.querySelector('#schedule-items')
+    
+    const fieldsContainer = document.querySelectorAll('.schedule-item')
+
+    const newFieldContainer = fieldsContainer[fieldsContainer.length - 1].cloneNode(true)
+
+    const fields = newFieldContainer.querySelectorAll("input")
 
     let clone = true
-    fields.forEach(function(field) {
+    fields.forEach(function (field) {
         if (field.value == "") {
             clone = false
         }
     });
 
     if (clone != false) {
-        fields.forEach(function(field) {
+        fields.forEach(function (field) {
             field.value = ""
         });
-    
-        document.querySelector("#schedule-items").appendChild(newFieldsContainer)
+
+        container.appendChild(newFieldContainer)
     }
 }
