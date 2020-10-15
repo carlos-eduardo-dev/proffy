@@ -4,9 +4,18 @@ function cloneField() {
     const newFieldsContainer = document.querySelector(".schedule-item").cloneNode(true)
     const fields = newFieldsContainer.querySelectorAll("input")
 
+    let clone = true
     fields.forEach(function(field) {
-        field.value = ""
+        if (field.value == "") {
+            clone = false
+        }
     });
 
-    document.querySelector("#schedule-items").appendChild(newFieldsContainer)
+    if (clone != false) {
+        fields.forEach(function(field) {
+            field.value = ""
+        });
+    
+        document.querySelector("#schedule-items").appendChild(newFieldsContainer)
+    }
 }
