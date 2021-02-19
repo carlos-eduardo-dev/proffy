@@ -60,6 +60,32 @@
     color: var(--color-primary-dark);
 }
 
+#page-give-classes .remove-time {
+    background: none;
+    border: none;
+    
+    display: none;
+
+    align-self: flex-end;
+
+    width: 2.4rem;
+    height: min-content;
+
+    margin:  1.6rem 0;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+#page-give-classes .remove-time img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    pointer-events: none;
+}
+
 #page-give-classes fieldset+fieldset {
     margin-top: 6.4rem;
 }
@@ -141,7 +167,7 @@
 
     .schedule-item {
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr 1fr 2.4rem;
 
         column-gap: 1.6rem;
     }

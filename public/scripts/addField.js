@@ -15,13 +15,25 @@ function cloneField() {
         if (field.value == "") {
             clone = false
         }
-    });
+    })
 
     if (clone != false) {
         fields.forEach(function (field) {
             field.value = ""
-        });
+        })
 
         container.appendChild(newFieldContainer)
+
+        if (fieldsContainer.length >= 1) {
+            addButtonClose()
+        }
     }
 }
+
+function addButtonClose() {
+    const btn = document.querySelectorAll('.remove-time')
+
+    btn.forEach(function (btn) {
+        btn.style.display = 'initial'
+    })
+} 

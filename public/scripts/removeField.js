@@ -1,14 +1,18 @@
-document.querySelector("#remove-time").addEventListener('click', removeField)
+function removeField($event) {
+    const field = $event.target.parentNode
 
-function removeField() {
+    field.remove()
 
-    const container = document.querySelector('#schedule-items')
+    removeButtonClose()
+}
 
+function removeButtonClose() {
     const fieldsContainer = document.querySelectorAll('.schedule-item')
 
-    const removeFieldContainer = fieldsContainer[fieldsContainer.length - 1]
-
-    if ((fieldsContainer.length - 1) > 0) {
-        container.removeChild(removeFieldContainer)
+    if (fieldsContainer.length <= 1) {
+        const btn = document.querySelectorAll('.remove-time')
+        btn.forEach(function (btn) {
+            btn.style.display = 'none'
+        })
     }
 }
